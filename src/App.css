@@ -2,43 +2,48 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Manrope", sans-serif;
 }
 
-.navbar{
-  background-color: #F55A5A;
+.navbar {
+  background-color: #f55a5a;
   height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.navbar img{
+.navbar img {
   margin-right: 5px;
   width: 24px;
 }
 
-.hero{
+.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.card{
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero .photo{
+.hero .photo {
   width: 125px;
   min-height: 168px;
   border-radius: 5px;
   object-fit: cover;
 }
 
-.hero .location{
+.hero .location {
   display: flex;
+}
+
+hr {
+  border: 1px solid #f5f5f5;
+  width: 475px;
 }
