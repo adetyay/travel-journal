@@ -5,3 +5,16 @@
 body{
   font-family: "Manrope", sans-serif;
 }
+
+.navbar{
+  background-color: #F55A5A;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar img{
+  margin-right: 5px;
+  width: 24px;
+}
