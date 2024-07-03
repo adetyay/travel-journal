@@ -18,3 +18,20 @@ body{
   margin-right: 5px;
   width: 24px;
 }
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .photo{
+  width: 125px;
+  min-height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.hero .location{
+  display: flex;
+}
